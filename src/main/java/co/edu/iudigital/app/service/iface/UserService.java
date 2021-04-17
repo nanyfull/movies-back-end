@@ -10,10 +10,12 @@ public interface UserService {
 	 * @param user
 	 */
 	public void create(User user);
+
 	/**
-	 * Se logue un usuario
+	 * Se loguea un usuario
+	 * 
 	 * @param user
-	 * @return
+	 * @return User
 	 * @throws Exception
 	 */
 
